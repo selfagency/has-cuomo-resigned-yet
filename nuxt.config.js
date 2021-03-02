@@ -7,7 +7,7 @@ export default {
   target: 'static',
 
   publicRuntimeConfig: {
-    status: process.env.STATUS || 'No.'
+    status: process.env.STATUS || false
   },
 
   googleFonts: {

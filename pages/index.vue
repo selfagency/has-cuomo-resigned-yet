@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="status animate fadeInDown">
-      {{ $config.status }}
+      {{ $config.status ? 'Yes.' : 'No.' }}
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {}
   .status {
     @apply text-center text-white;
 
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     font-family: Fraunces, serif;
     font-weight: 900;
     font-size: 9em;
