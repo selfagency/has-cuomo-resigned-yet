@@ -28,7 +28,6 @@ body {
   width: 100vw;
   background-color: #000;
   background-position: center;
-  background-origin: center;
   background-size: cover;
   background-repeat: no-repeat;
 }

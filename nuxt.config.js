@@ -23,7 +23,7 @@ export default {
   head: {
     titleTemplate: title,
     meta: [
-      { charset: 'utf-8' },
+      { charset: 'utf-8', language: 'en' },
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1'
@@ -74,7 +74,9 @@ export default {
   seo: {
     baseUrl: 'https://hascuomoresignedyet.com',
     canonical: 'auto',
-    isForcedTrailingSlash: true
+    isForcedTrailingSlash: true,
+    lang: false,
+    language: false
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
